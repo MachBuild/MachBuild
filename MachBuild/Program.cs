@@ -9,7 +9,7 @@ namespace MachBuild
         static void Main(string[] args)
         {
             ConsoleHelper.WriteLineCenter("--- MachBuild v0.0.001 ---");
-
+            
             Console.ReadKey();
         }
     }

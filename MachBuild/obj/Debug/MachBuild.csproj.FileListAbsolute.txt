@@ -3,3 +3,8 @@ c:\users\nick\documents\visual studio 2012\Projects\MachBuild\MachBuild\bin\Debu
 c:\users\nick\documents\visual studio 2012\Projects\MachBuild\MachBuild\obj\Debug\MachBuild.csprojResolveAssemblyReference.cache
 c:\users\nick\documents\visual studio 2012\Projects\MachBuild\MachBuild\obj\Debug\MachBuild.exe
 c:\users\nick\documents\visual studio 2012\Projects\MachBuild\MachBuild\obj\Debug\MachBuild.pdb
+C:\Users\Nick\Documents\GitHub\MachBuild\MachBuild\obj\Debug\MachBuild.exe
+C:\Users\Nick\Documents\GitHub\MachBuild\MachBuild\obj\Debug\MachBuild.pdb
+C:\Users\Nick\Documents\GitHub\MachBuild\MachBuild\bin\Debug\MachBuild.exe
+C:\Users\Nick\Documents\GitHub\MachBuild\MachBuild\bin\Debug\MachBuild.pdb
+C:\Users\Nick\Documents\GitHub\MachBuild\MachBuild\obj\Debug\MachBuild.csprojResolveAssemblyReference.cache

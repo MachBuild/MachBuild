@@ -7,10 +7,12 @@ namespace MachBuild.CSharp
     internal class ConvertCSToCpp
     {
         private string CSharpFile = string.Empty;
+        private CSInfoContainer CInfo;
 
         public ConvertCSToCpp(string CSFile)
         {
             CSharpFile = CSFile;
+            CInfo = new CSInfoContainer();
         }
 
         public void Run()
@@ -26,7 +28,12 @@ namespace MachBuild.CSharp
             //Read CSBuffer Line By Line
             foreach (string Line in CSBuffer.Split('\n'))
             {
-
+                if (Line.StartsWith("using"))
+                {
+                    //Get EOL ';' and add to CInfo's UsingContainer
+                    string UsingStatment = Line.Substring(0, Line.IndexOf(";"));
+                    CInfo.UsingContainer.Add(UsingStatment);
+                }
             }
         }
     }

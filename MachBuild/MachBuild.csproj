@@ -39,6 +39,7 @@
   <ItemGroup>
     <Compile Include="ConsoleHelper.cs" />
     <Compile Include="CSharp\ConvertCSToCpp.cs" />
+    <Compile Include="CSharp\CSInfoContainer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

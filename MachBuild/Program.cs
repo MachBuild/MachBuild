@@ -9,7 +9,8 @@ namespace MachBuild
         static void Main(string[] args)
         {
             ConsoleHelper.WriteLineCenter("--- MachBuild v0.0.001 ---");
-            
+            CSharp.ConvertCSToCpp conv = new CSharp.ConvertCSToCpp("beta.cs");
+            conv.Run();
             Console.ReadKey();
         }
     }
